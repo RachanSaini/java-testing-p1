@@ -28,5 +28,11 @@ public class PalindromeTest {
 
     }
 
+    @Test
+    public void sumEvenGreatorThan25(){
+        assertEquals(true,palindromeObj.sumEvenGreatorThan25(82828));
+        assertEquals(false,palindromeObj.sumEvenGreatorThan25(12453));
+        assertEquals(false,palindromeObj.sumEvenGreatorThan25(121));
+    }
 
 }
